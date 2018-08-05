@@ -1,0 +1,43 @@
+{
+  "name": "richter",
+  "version": "0.1.0",
+  "description": "A Rich Te/xt Edito/r",
+  "main": "src/Richter.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaizn-junior/richter.git"
+  },
+  "keywords": [
+    "rich",
+    "editor",
+    "text",
+    "rich-text-editor",
+    "es6"
+  ],
+  "author": "Simao Nziaka",
+  "bugs": {
+    "url": "https://github.com/akaizn-junior/richter/issues"
+  },
+  "homepage": "https://github.com/akaizn-junior/richter#readme",
+  "scripts": {
+    "test": "mocha 'src/**/*spec.js' --require babel-core/register",
+    "build": "npm run test && webpack --progress",
+    "doc": "jsdoc 'src/Richter.js' -c jsdoc.json --verbose"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "docdash": "^0.4.0",
+    "dotenv": "^6.0.0",
+    "jsdoc": "^3.5.5",
+    "jsdom": "^11.12.0",
+    "jsdom-global": "^3.0.2",
+    "minami": "^1.2.3",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}

@@ -1,0 +1,142 @@
+{
+	"menus": [
+		{
+			"command": "formatblock",
+			"header": "Formatting",
+			"values": {
+				"h1": "Title 1",
+				"h2": "Title 2",
+				"h3": "Title 3",
+				"h4": "Title 4",
+				"h5": "Title 5",
+				"h6": "Title 6",
+				"p": "Paragraph",
+				"pre": "Preformatted"
+			}
+		}, {
+			"command": "fontname",
+			"header": "Font Type",
+			"values": {
+				"Arial": "Arial",
+				"Arial Black": "Arial Black",
+				"Courier New": "Courier New",
+				"Times New Roman": "Times New Roman"
+            }
+		}, {
+			"command": "fontsize",
+			"header": "Font Size",
+			"values": {
+				"1": "Very small",
+				"2": "A bit small",
+				"3": "Normal",
+				"4": "Medium-large",
+				"5": "Big",
+				"6": "Very big",
+				"7": "Maximum"
+			}
+		}, {
+			"command": "forecolor",
+			"header": "Color",
+			"values": {
+				"red": "Red",
+				"blue": "Blue",
+				"green": "Green",
+				"white": "White",
+				"black": "Black"
+			}
+		}, {
+			"command": "backcolor",
+			"header": "Highlight",
+			"values": {
+				"white": "White",
+				"red": "Red",
+				"green": "Green",
+				"black": "Black"
+			}
+		}
+	],
+	"buttons" : [
+		{
+			"text": "Clean",
+			"command": "cleanDoc",
+			"icon": ""
+		}, {
+			"text": "Print",
+			"command": "printDoc",
+			"icon": ""
+		}, {
+			"text": "Undo",
+			"command": "undo",
+			"icon": ""
+		}, {
+			"text": "Redo",
+			"command": "redo",
+			"icon": ""
+		}, {
+			"text": "Remove formatting",
+			"command": "removeFormat",
+			"icon": ""
+		}, {
+			"text": "Bold",
+			"command": "bold",
+			"icon": ""
+		}, {
+			"text": "Italic",
+			"command": "italic",
+			"icon": ""
+		}, {
+			"text": "Underline",
+			"command": "underline",
+			"icon": ""
+		}, {
+			"text": "Left align",
+			"command": "justifyleft",
+			"icon": ""
+		}, {
+			"text": "Center align",
+			"command": "justifycenter",
+			"icon": ""
+		}, {
+			"text": "Right align",
+			"command": "justifyright",
+			"icon": ""
+		}, {
+			"text": "Numbered list",
+			"command": "insertorderedlist",
+			"icon": ""
+		}, {
+			"text": "Dotted list",
+			"command": "insertunorderedlist",
+			"icon": ""
+		}, {
+			"text": "Quote",
+			"command": "formatblock",
+			"value": "blockquote",
+			"icon": ""
+		}, {
+			"text": "Delete indentation",
+			"command": "outdent",
+			"icon": ""
+		}, {
+			"text": "Add indentation",
+			"command": "indent",
+			"icon": ""
+		}, {
+			"text": "Hyperlink",
+			"command": "createLink",
+			"icon": ""
+		}, {
+			"text": "Cut",
+			"command": "cut",
+			"icon": ""
+		}, {
+			"text": "Copy",
+			"command": "copy",
+			"icon": ""
+		}, {
+			"text": "Paste",
+			"command": "paste",
+			"icon": ""
+		}
+	]
+}
