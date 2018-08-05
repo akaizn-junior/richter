@@ -1,4 +1,4 @@
-# Richter
+# Richter v0.1.0
 ## Rich Te/xt Edito/r
 
 Built with ES6, Richter is a rich text editor for the web.
